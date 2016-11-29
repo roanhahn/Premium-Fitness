@@ -355,7 +355,7 @@ a {
   border-radius: 100%;
   width: 40px;
   height: 40px;
-  line-height: 35px;
+  line-height: 36px;
   font-size: 15px;
   overflow: hidden;
   text-align: center; }
@@ -413,8 +413,7 @@ a {
   background-color: #f6f6f6;
   background: #f6f6f6 url("../img/hero.jpg") no-repeat top center fixed;
   background-size: cover;
-  height: 100vh;
-  min-height: 600px;
+  height: 100%;
   padding: 0;
   position: relative; }
   @media all and (max-width: 991px) {

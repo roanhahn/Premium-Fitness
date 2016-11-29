@@ -373,7 +373,8 @@ a {
   display: none; }
   @media all and (max-width: 767px) {
     .phone {
-      display: block; } }
+      display: block;
+      bottom: 25px; } }
 
 .border-top, .border-right, .border-bottom, .border-left {
   position: fixed;

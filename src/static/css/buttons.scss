@@ -1,4 +1,4 @@
-.mail{
+.mail, .phone{
 	background-color: $color-1;
 	color: #fff;
 	z-index: 10;
@@ -23,5 +23,15 @@
 	@media all and (max-width: $breakpoint-mobile){
 		top: 25px;
 		right: 25px;
+	}
+}
+
+.phone{
+	top: auto;
+	bottom: 40px;
+	display: none;
+	@media all and (max-width: $breakpoint-mobile){
+		display: block;
+		bottom: 25px;
 	}
 }

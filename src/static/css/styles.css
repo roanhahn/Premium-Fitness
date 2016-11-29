@@ -343,7 +343,7 @@ a {
     opacity: 0; }
   100% {
     opacity: 1; } }
-.mail {
+.mail, .phone {
   background-color: #000;
   color: #fff;
   z-index: 10;
@@ -359,13 +359,21 @@ a {
   font-size: 15px;
   overflow: hidden;
   text-align: center; }
-  .mail:hover {
+  .mail:hover, .phone:hover {
     background-color: #ffd800;
     color: #fff; }
   @media all and (max-width: 767px) {
-    .mail {
+    .mail, .phone {
       top: 25px;
       right: 25px; } }
+
+.phone {
+  top: auto;
+  bottom: 40px;
+  display: none; }
+  @media all and (max-width: 767px) {
+    .phone {
+      display: block; } }
 
 .border-top, .border-right, .border-bottom, .border-left {
   position: fixed;
@@ -434,7 +442,7 @@ a {
         font-size: 55px; } }
     @media all and (max-width: 767px) {
       .hero h1 {
-        font-size: 26px; } }
+        font-size: 30px; } }
     .hero h1:after {
       display: block;
       width: 100px;
@@ -476,7 +484,7 @@ a {
         font-size: 24px; } }
     @media all and (max-width: 767px) {
       .hero h2 {
-        font-size: 13px; } }
+        font-size: 14px; } }
   .hero small {
     display: block;
     color: #fff; }
